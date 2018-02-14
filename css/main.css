@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.wrapper{
+	overflow: hidden;
+	min-width: 320px;
+}
+.container-fluid{
+	max-width: 768px;
+	margin: auto;
+	background: linear-gradient(to top right, #EBF1CC, #F8EDCB);
+	font-family: Arial, sans-serif;
+}
+.clearfix{
+	clear: both;
+	display: none;
+}
+span{
+	display: block;
+}
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 60px;
+	color: #77C400;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.header span{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #333333;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.main{
+	margin-top: 30px;
+	padding: 0px;
+	padding-bottom: 65px;
+}
+.main span{
+	display: block;
+	text-align: center;	
+	font-family: Arial, sans-serif;
+	color: #333333;
+}
+img{
+	display: block;
+	width: 100%;
+}
+span.h2{
+	margin: 0px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+span.text{
+	margin-top: 5px;
+	font-size: 18px;
+	line-height: 20px;
+}
+@media screen and (max-width: 767px){
+	.main .clearfix{
+		display: block;
+		margin-bottom: 0px;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 35px;
+		margin-bottom: 5px;
+	}
+	.header span{
+		font-size: 24px;
+	}
+	.main{
+		margin-top: 45px;
+		padding-bottom: 10px;
+	}
+	.main div{
+		margin-bottom: 25px;
+	}
+}
